@@ -1,0 +1,36 @@
+{
+  "name": "apirestaurant",
+  "version": "1.0.0",
+  "description": "api rest de um restaurante",
+  "keywords": [
+    "API",
+    "REST",
+    "RESTAURANTE"
+  ],
+  "homepage": "https://github.com/Kakamc12/APIRestRestaurante#readme",
+  "bugs": {
+    "url": "https://github.com/Kakamc12/APIRestRestaurante/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kakamc12/APIRestRestaurante.git"
+  },
+  "license": "ISC",
+  "author": "Kassem Mahmud Chubassi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.12.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
